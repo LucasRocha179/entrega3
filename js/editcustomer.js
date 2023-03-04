@@ -47,7 +47,7 @@ function validate() {
     return;
   }
 
-  alert("Cliente adicionado com sucesso!")
+  alert("Cliente alterado com sucesso!")
   form.submit();
   this.navigate("customers");
 }

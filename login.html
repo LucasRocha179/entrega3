@@ -16,7 +16,7 @@
             alt="OS logotipo">
     </header>
     <main>
-        <form action="/home.html">
+        <form name="login_form">
             <fieldset>
                 <legend>Login</legend>
                 <label for="email">Email/Login:</label>
@@ -24,8 +24,8 @@
                 <label for="password">Senha:</label>
                 <input type="password" id="password" placeholder="Digite sua senha"><br>
             </fieldset>
-            <input type="submit" formaction="/register.html" value="Novo Usuário">
-            <input type="submit" value="Entrar">
+            <input id="register" type="submit" value="Novo Usuário" onclick="return registerUser()">
+            <input id="login" type="submit" value="Entrar" onclick="return loginUser()">
         </form>
     </main>
 
