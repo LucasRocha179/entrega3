@@ -9,6 +9,12 @@ main {
   align-items: center;
 }
 
+.calendar {
+  height: 120px; 
+  opacity: 0.3; 
+  margin-top: 20px;
+}
+
 .button {
   display: flex;
   flex-direction: column;

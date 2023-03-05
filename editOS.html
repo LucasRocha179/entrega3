@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
   <link rel="stylesheet" href="./css/editOS.css">
   <script src="./js/utils.js"></script>
+  <script src="./js/editOS.js"></script>
 </head>
 
 <body>
@@ -31,14 +32,13 @@
   <main>
 
     <section>
-      <img src="/resources/calendar2-check.svg" alt="OS logotipo"
-        style="height: 120px; opacity: 0.3; margin-top: 20px;">
+      <img class="calendar" src="/resources/calendar2-check.svg" alt="OS logotipo">
       <form action="/customers.html">
         <fieldset>
           <legend>Edição Ordem de Serviço</legend>
           <label for="obs">Descrição do Serviço:</label><br>
           <textarea id="obs" rows="10" cols="40">Observações</textarea><br>
-          Valor do Serviço: R$ <input type="number"><br>
+          Valor do Serviço: <input id="valor"><br>
           <label for="customers">Cliente:</label>
           <select id="customers" name="customers">
             <option value="1">João da Silva Santos</option>
